@@ -1,0 +1,68 @@
+    * {
+        
+        background-color:lightgray
+    }
+    p{
+        color: aquamarine;
+    }
+    h2{
+        color: cadetblue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .image1{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 5px solid black;
+        border-radius: 100%;
+        width: 100%;
+    }
+    body {
+        max-width: 1440px;
+    }
+    div {
+     width: 100%;
+    }
+    ol li {
+        color: fuchsia;
+    }
+    ul li {
+        color: fuchsia;
+    }
+
+    h1,h2,h3,h4{
+        padding-bottom: 20px;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    a{
+        font-size: 20px;
+    }
+    li {
+        padding: 10px 20px 30px 40px;
+    }
+
+    .flex-container{
+        display:flex;
+        justify-content: space-between;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: black;
+        padding: 10px;
+    }
+    .flex-container .nav-container a{
+        color: white;
+        font-weight: 700;
+        padding: 15px;
+    }
+    .flex-container .nav-container{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .flex-container .logo-container img{
+        width: 200px;
+        height: 50px;
+        object-fit: cover;
+    }
